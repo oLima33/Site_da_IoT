@@ -1,0 +1,91 @@
+        body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #0f172A;
+    padding:60px 5vw;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    min-height: 80vh;
+}
+
+.box{
+    padding: 1px 20px 20px 20px;
+    background-color: #1E293B;
+    border-radius: 20px;
+    box-shadow: rgb(0, 0, 0) 5px 2px 20px;
+
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: space-between;
+
+}
+
+header{
+    text-align: center;
+    margin:67px;
+}
+
+p{color: #E2E8F0;
+    padding-left: 10px;
+}
+ul{color: #E2E8F0;}
+label{color: #E2E8F0;}
+
+h1{
+    font-size: 67px;
+    margin: 0px;
+    color: #22D3EE;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color: #22D3EE;
+}
+h3{
+    color: white;
+    font-size: 30px;
+}
+#materias{
+    height: 36vh;
+}
+#conceito{
+    height: 30vh;
+}
+#duvida{
+    height: 30vh;
+}
+footer{
+    display: flex;
+    margin-top: 30px;
+}
+a{
+    color:blanchedalmond;
+}
+b{
+    color:#b8bdc3
+}
+nav{
+    padding-top: 10px;
+}
+#name{
+    margin-top: 25px;
+}
+#foto{
+    width: 150px;
+    margin-top: 10px;
+    border: 10px solid #22D3EE;
+    border-radius: 5px;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
