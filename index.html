@@ -10,15 +10,17 @@
     <header>
         <h1>Técnico de I<a href="frigo.html" style="color: #22D3EE; text-decoration: none;">o</a>T</h1>
         <h3>O futuro está aqui</h3>
-         <nav>
-                <a href="index.html">Início</a>
-                <a href="algoritmos.html">Algoritmos</a>
-                <a href="algoritmos.html">Algoritmos</a>
-                <a href="algoritmos.html">Algoritmos</a>
-                <a href="algoritmos.html">Algoritmos</a>
-                <a href="algoritmos.html">Algoritmos</a>
-        </nav>
     </header>
+    <nav>
+        <div>
+            <a href="index.html">Início</a>
+            <a href="https://www.ufsm.br/unidades-universitarias/ctism/horarios-2026-1">Turmas</a>
+            <a href="https://www.coca-cola.com/br/pt">Projetos</a>
+            <a href="https://libraryofbabel.info/">Biblioteca</a>
+            <a href="https://www.ufsm.br/pro-reitorias/prograd/editais/069-2025">Ingresso</a>
+            <a href="https://sso.acesso.gov.br/login?client_id=www.gov.br&authorization_id=19da3f7178c">Login</a> 
+        </div>
+    </nav>
     <main>
         <div class="box2">
             <div class="box" id="conceito">
@@ -33,18 +35,27 @@
                     celulares e também outros eletronicos ligados a internet.
                 </p>
             </div>
+
+            <div class="box" id="imgs">
+                <div>
+                    <img id="imgs-1" src=".\static\assets\images\propulsao-de-cohetes.jpg" height=270px>
+                    <img id="imgs-2" src=".\static\assets\images\bolha-espacial.jpg" height=270px>
+                </div>
+                <p>imagens de projetos desenvolvidos por alunos do curso</p>
+            </div>
+
             <div class="box" id="duvida">
                 <h2><span>Dúvidas</span></h2>
                 <p style="text-align: center;">Ficou com alguma duvida? Nos conte abaixo:</p>
-                    <form >
-                      <label>Nome</label>
-                      <input type="text" name="nome"><br>
-                      <label>E-mail</label>
-                      <input type="email" name="email"><br>
-                      <label>Duvida</label>
-                      <textarea name="duvida"></textarea>
-                      <button>Enviar</button>
-                     </form>
+                <form >
+                    <label>Nome:</label>
+                    <input type="text" name="nome"><br>
+                    <label>E-mail:</label>
+                    <input type="email" name="email"><br>
+                    <label>Duvida:</label>
+                    <textarea name="duvida"></textarea>
+                    <button class="enviar-button">Enviar</button>
+                </form>
             </div>
         </div>
        
@@ -65,9 +76,13 @@
        
     </main>
     <footer class="box" id="foot">
-        <img src="https://www.pngplay.com/wp-content/uploads/5/Coca-Cola-Background-Logo-PNG-Image.png" width="50">
-        <p>Desenvolvido: por Lorenzo Lima e Nathan Rossi.</p><br>
-        <p>© 2026 IoT Company. Todos os direitos reservados.</p>
+        <div>
+            <img src="https://www.pngplay.com/wp-content/uploads/5/Coca-Cola-Background-Logo-PNG-Image.png" width="50">
+            <p>Desenvolvido: por Lorenzo Lima e Nathan Rossi.</p>
+        </div>
+        <div>
+            <p>© 2026 IoT Company. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
