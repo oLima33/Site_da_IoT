@@ -37,15 +37,15 @@
                     </div>
                     <div>
                         <label for="password">Sua senha*</label>
-                        <input type="password" name="password" required onchange="confirmacao();" placeholder="ex.:abacaxi123"/>
+                        <input type="password" name="password" minlength="8" required onchange="confirmacao();" placeholder="ex.:abacaxi123"/>
                     </div>
                     <div>
                         <label for="password">Confirmar Senha*</label>
-                        <input type="password" name="confirmpassword" required onchange="confirmacao();" placeholder="Insira a senha novamente" />
+                        <input type="password" name="confirmpassword" minlength="8" required onchange="confirmacao();" placeholder="Insira a senha novamente" />
                     </div>
                     <div>
                         <label for="data">Data de nascimento*</label>
-                        <input  type="date" id="nascimento" required/>
+                        <input  type="date" id="nascimento" min="1945-04-01" max="2026-03-27" required/>
                     </div>
                     <div>
                         <button class="enviar-button">Enviar</button>
