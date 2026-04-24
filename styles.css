@@ -4,32 +4,38 @@ body{
     background-color: #0f172A;
     padding:60px 5vw;
 }
-/* Main - controle do*/
+
+/* Main - controle do tronco do site (Excluindo o cabeçalho e rodapé)*/
 main{
      display: flex;
     justify-content: center;
 }
+
+/*Definição do estilo geral das caixas (div) em geral*/
 .box{
     padding: 1px 20px 20px 20px;
     background-color: #1E293B;
     border-radius: 20px;
     box-shadow: rgb(0, 0, 0) 5px 2px 20px;
-    /*Definição do estilo geral das caixas (div) em geral*/
 }
+
+/*Definação do posicionamento das caixas em relação as outras e as outras partes*/
 .box2{
     display: flex;
     flex-direction: column;
     align-content: space-between;
     padding: 10px;
     gap: 20px
-    /*Definação do posicionamento das caixas em relação as outras e as outras partes*/
 }
+
+/*Definição do estilo do fornulário de dúvidas*/
 form input, textarea{
     background-color: #0f172A;
     border-radius: 10px;
     border: none;
-    /*Defiinição do estilo do fornulário de dúvidas*/
-}
+}    
+
+/*Definção do estilo dos botões de envio (do formulário e página de cadastros*/
 .enviar-button{
     background-color: #22D3EE;
     padding: 10px;
@@ -39,12 +45,14 @@ form input, textarea{
     /*Definção do estilo dos botões de envio (do formulário e página de cadastros*/
 }
 
-/* Header */
+/*Definição do estilo do cabeçalho*/
 header{
     text-align: center;
     margin:17px 67px 0 67px;
-    /*Definição do estilo do cabeçalho*/
+    
 }
+
+/*Definição da posição da barra de navegação*/
 nav{
     position:sticky;
     top: 37px;
@@ -52,8 +60,10 @@ nav{
     display: flex;
     justify-content: center;
     margin-top:30px;
-    /*Definição da posição da barra de navegação*/
-}
+    
+} 
+
+/*Definição do estilo da barra de navegação do site*/
 nav div{
     display: flex;
     justify-content: center;
@@ -64,8 +74,10 @@ nav div{
     border-radius: 15px;
     padding: 10px 20px;
     width: auto;
-    /*Definição do estilo da barra de navegação do site*/
+ 
 }
+
+/*Definição dos links da barra de navegação*/
 nav a{
     display: inline-flex;
     align-items: center;
@@ -73,42 +85,45 @@ nav a{
     border-radius: 10px;
     padding: 15px;
     transition: 0.3s;
-    /*Definição dos links da barra de navegação*/
 }
+
+/*Definição do estilo dos links da barra de navegação*/
 nav a:hover{
     color: black;
     background-color: #22D3EE;
-    /*Definição do estilo dos links da barra de navegação*/
 }
 
-
+/*Definição do estilo dos paragrafos*/
 p{color: #E2E8F0;
     padding-left: 10px;
-    /*Definição do estilo dos paragrafos*/
 }
+
 ul{color: #E2E8F0;} /*Definição do estilo das listas*/
+
 label{color: #E2E8F0;} /*Definção do estilos das legendas do formulário*/
 
+/*Definição do estilo dos títulos grandes*/
 h1{
     font-size: 67px;
     margin: 0px;
     color: #22D3EE;
-    /*Definição do estilo dos títulos grandes*/
 }
 
+/*Definição do estilo dos títulos médios*/
 h2{
     text-align: center;
     font-size: 35px;
     color: #22D3EE;
-    /*Definição do estilo dos títulos grandes*/
 }
+
+/*Definição do estilo dos sub-títulos*/
 h3{
     color: white;
     font-size: 30px;
     margin-bottom: 0;
-    /*Definição do estilo dos títulos grandes*/
 }
 
+/*Definição do estilo do rodapé*/
 footer{
     display: flex;
     margin-top: 30px;
@@ -121,18 +136,25 @@ footer div{
     justify-content: center;
 }
 
+/*Definição do estilo dos links*/
 a{
     color:blanchedalmond;
     text-decoration: none;
 }
+
+/*Definição do estilo das escritas em negrito*/
 b{
     color:#b8bdc3
 }
+
+/*IDs para objetos específicos*/
 
 
 #name{
     margin-top: 25px;
 }
+
+/*Definição do estilo das fotos*/
 #foto{
     width: 150px;
     margin-top: 10px;
@@ -141,6 +163,7 @@ b{
     
 }
 
+/*Definição do estilo de outras imagens*/
 #imgs{
     padding: 40px;
     display: flex;
@@ -156,6 +179,7 @@ b{
     margin-left: -20px;
 }
 
+/*Definição do estilo dos formulários de cadastro e login*/
 form{
     display: flex;
     justify-content: center;
@@ -180,6 +204,8 @@ form{
     padding: 3px;
     letter-spacing: 1px;
 }
+
+/*Definição dos estilos das caixas sobre as matérias*/
 .matbox{
     row-gap: 20px;
     column-gap: 40px;
@@ -190,9 +216,8 @@ form{
 }
 .matbox2{
     min-width: 250px;
-
-      flex: 0 0 calc(25% - 10px); 
-        padding: 1px 20px 20px 20px;
+    flex: 0 0 calc(25% - 10px); 
+    padding: 1px 20px 20px 20px;
     background-color: #1E293B;
     border-radius: 20px;
     box-shadow: rgb(0, 0, 0) 5px 2px 20px;
