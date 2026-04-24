@@ -1,88 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IoT</title>
+<link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- h1: para os títulos grandes -->
+<!-- h2: para os títulos importante, mas menores que o principal -->
+<!-- h3: para os subtítulos -->
+<!-- p: para parágrafos -->
+<!-- a: para links -->
+<!-- img: para adicionar imagens -->
+<!-- div: para divisorias -->
+
+
 <body>
-    <header>
-        <h1>Técnico de I<a href="frigo.html" style="color: #22D3EE; text-decoration: none;">o</a>T</h1>
-        <h3>O futuro está aqui</h3>
-    </header>
-    <nav>
-        <div>
-            <a href="index.html">Início</a>
-            <a href="https://www.ufsm.br/unidades-universitarias/ctism/horarios-2026-1">Turmas</a>
-            <a href="https://www.coca-cola.com/br/pt">Projetos</a>
-            <a href="https://libraryofbabel.info/">Biblioteca</a>
-            <a href="https://www.ufsm.br/pro-reitorias/prograd/editais/069-2025">Ingresso</a>
-            <a href="cadastro.html">Cadastre-se</a> 
-        </div>
-    </nav>
-    <main>
-        <div class="box2">
-            <div class="box" id="conceito">
-                <h2><span>Conceito</span></h2>
-                <p>A IoT (Internet of Things) é o estudo sobre transferencia de dados
-                    e automatização de eletronicos através da internet
-                    microcontroladores.<br>
-                    O seu obejetivo é facilitar e acelerar processos do dia a dia, como acionamento
-                    de eletrodoméstico à distancia ou como sensoriamento remoto. Ela atua
-                    em áreas como a meteorogia, agronomia e engenharias em geral.<br>
-                    Entre exemplos da IoT no dia a dia está a Alexa, Smartwatches,
-                    celulares e também outros eletronicos ligados a internet.
-                </p>
-            </div>
+<header>
+<h1>Técnico de I<a href="frigo.html" style="color: #22D3EE; text-decoration: none;">o</a>T</h1>
+<h3>O futuro está aqui</h3>
+</header>
+<nav>
+<!-- nav para o campo de navegação do nosso site -->
+<div>
+<a href="index.html">Início</a>
+<a href="https://www.ufsm.br/unidades-universitarias/ctism/horarios-2026-1">Turmas</a>
+<a href="https://www.coca-cola.com/br/pt">Projetos</a>
+<a href="https://libraryofbabel.info/">Biblioteca</a>
+<a href="https://www.ufsm.br/pro-reitorias/prograd/editais/069-2025">Ingresso</a>
+<a href="cadastro.html">Cadastre-se</a>
+<!-- usamos a tag "a" para criar links para outras abas do nosso site -->
+</div>
+</nav>
+<main>
+<!-- a area da "main" contém o conteúdo principal-->
+<div class="box2">
+<!-- Utilizamos a classe box2 para dividir o conteudo do site em 2 colunas-->
+<div class="box" id="conceito">
+<!-- ultilizamos a classe "box" para agrupar cada tópico de conteúdo -->
+<h2><span>Conceito</span></h2>
+<p>
+A IoT (Internet of Things) é o estudo sobre transferencia de dados
+e automatização de eletronicos através da internet
+microcontroladores.<br>
+O seu obejetivo é facilitar e acelerar processos do dia a dia, como acionamento
+de eletrodoméstico à distancia ou como sensoriamento remoto. Ela atua
+em áreas como a meteorogia, agronomia e engenharias em geral.<br>
+Entre exemplos da IoT no dia a dia está a Alexa, Smartwatches,
+celulares e também outros eletronicos ligados a internet.
+</p>
+</div>
 
-            <div class="box" id="imgs">
-                <div>
-                    <img id="imgs-1" src=".\static\assets\images\propulsao-de-cohetes.jpg" height=270px>
-                    <img id="imgs-2" src=".\static\assets\images\bolha-espacial.jpg" height=270px>
-                </div>
-                <p>imagens de projetos desenvolvidos por alunos do curso</p>
-            </div>
+<div class="box" id="imgs">
+<div>
+<img id="imgs-1" src=".\static\assets\images\propulsao-de-cohetes.jpg" height=270px>
+<img id="imgs-2" src=".\static\assets\images\bolha-espacial.jpg" height=270px>
+</div>
+<p>imagens de projetos desenvolvidos por alunos do curso</p>
+</div>
 
-            <div class="box" id="duvida">
-                <h2><span>Dúvidas</span></h2>
-                <p style="text-align: center;">Ficou com alguma duvida? Nos conte abaixo:</p>
-                <form >
-                    <label>Nome:</label>
-                    <input type="text" name="nome"><br>
-                    <label>E-mail:</label>
-                    <input type="email" name="email"><br>
-                    <label>Duvida:</label>
-                    <textarea name="duvida"></textarea>
-                    <button class="enviar-button">Enviar</button>
-                </form>
-            </div>
-        </div>
-       
-        <div class="box2">
-           <div class="box" id="materias">
-                <h2><span>Matérias do curso:</span></h2>
-                <ul>
-                   <li> <a href="algoritmos.html">Algoritmos</a></li>
-                    <li><a href="circuitos.html">Circuitos Elétricos</a></li>
-                    <li><a href="fundamentos.html">Fundamentos de Automação</a></li>
-                    <li><a href="projetos.html">Projetos Mecânicos</a></li>
-                    <li><a href="desenvolvimento.html">Desenvolvimento de Sistemas</a></li>
-                    <li><a href="sistemas.html">Sistemas Embarcados</a></li>
-                    <li><a href="redes.html">Redes de Comunicação</a></li>
-                </ul>
-            </div>
-        </div>
-       
-    </main>
-    <footer class="box" id="foot">
-        <div>
-            <img src="https://www.pngplay.com/wp-content/uploads/5/Coca-Cola-Background-Logo-PNG-Image.png" width="50">
-            <p>Desenvolvido: por Lorenzo Lima e Nathan Rossi.</p>
-        </div>
-        <div>
-            <p>© 2026 IoT Company. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+<div class="box" id="duvida">
+<h2><span>Dúvidas</span></h2>
+<p style="text-align: center;">Ficou com alguma duvida? Nos conte abaixo:</p>
+<form > <!-- tag "form" cria um formulario-->
+<label>Nome:</label> <!-- "label" é a legenda para os itens do formulario-->
+<input type="text" name="nome"><br> <!-- "input" é a caixa de entrada das informações do usuario-->
+<label>E-mail:</label>
+<input type="email" name="email"><br>
+<label>Duvida:</label>
+<textarea name="duvida"></textarea>
+<button class="enviar-button">Enviar</button>
+</form>
+</div>
+</div>
+
+<div class="box2">
+<div class="box" id="materias">
+<h2><span>Matérias do curso:</span></h2>
+<ul>
+<!-- "ul" para criar uma lista de intens não ordenada -->
+<!-- "li" itens da lista -->
+<li><a href="algoritmos.html">Algoritmos</a></li>
+<li><a href="circuitos.html">Circuitos Elétricos</a></li>
+<li><a href="fundamentos.html">Fundamentos de Automação</a></li>
+<li><a href="projetos.html">Projetos Mecânicos</a></li>
+<li><a href="desenvolvimento.html">Desenvolvimento de Sistemas</a></li>
+<li><a href="sistemas.html">Sistemas Embarcados</a></li>
+<li><a href="redes.html">Redes de Comunicação</a></li>
+<!-- usamos a tag "a" para criar links para outras abas do nosso site -->
+</ul>
+</div>
+</div>
+
+</main>
+<footer class="box" id="foot">
+<!-- o footer é a área inferior do site, onde contém a logo, desenvolvedores e direitos autorais-->
+<div>
+<img src="https://www.pngplay.com/wp-content/uploads/5/Coca-Cola-Background-Logo-PNG-Image.png" width="50">
+<p>Desenvolvido: por Lorenzo Lima e Nathan Rossi.</p>
+</div>
+<div>
+<p>© 2026 IoT Company. Todos os direitos reservados.</p>
+</div>
+</footer>
 </body>
 </html>
