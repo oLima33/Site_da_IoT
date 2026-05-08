@@ -3,8 +3,12 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #0f172A;
     padding:60px 5vw;
+            animation: fadeIn 1s ease-in;
 }
-
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 /* Main - controle do tronco do site (Excluindo o cabeçalho e rodapé)*/
 main{
      display: flex;
@@ -70,7 +74,7 @@ nav div{
     gap: 10px;
     margin-bottom: 67px;
     background-color: #1E293B;
-    border: 4px, solid #22D3EE;
+    border: 4px solid #22D3EE;
     border-radius: 15px;
     padding: 10px 20px;
     width: auto;
