@@ -31,9 +31,9 @@ O projeto foi desenvolvido com foco educacional, buscando praticar a construçã
 
 Site_da_IoT/
 
-* index.html — Página inicial
-* login.html — Página de login
-* styles.css — Estilos do site
+* html/ — Estrutura das páginas
+* ../materias/ — Matérias técnicas do curso
+* css/ — Estilos do site
 * js/ — Scripts JavaScript
 * static/ — Imagens e arquivos
 
