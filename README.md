@@ -1,4 +1,4 @@
-#´[Site da IoT](https://olima33.github.io/Site_da_IoT/)
+#[Site da IoT](https://olima33.github.io/Site_da_IoT/)
 
 Projeto web desenvolvido com o objetivo de apresentar conceitos relacionados à Internet das Coisas (IoT), além de servir como base prática para estudo de desenvolvimento web (HTML, CSS e JavaScript).
 
